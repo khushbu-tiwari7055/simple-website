@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Course</title>
+  <link rel="stylesheet" href="style10.css">
+  <script src="script10.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Web Development Course</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#courses">Course Details</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About the Course</h2>
+    <p>This course teaches you HTML, CSS, JavaScript, and how to build complete websites. Anyone can start—even with zero technical background.</p>
+  </section>
+
+  <section id="courses">
+    <h2>Course Details</h2>
+    <ul>
+      <li>Basics of HTML and CSS</li>
+      <li>Introduction to JavaScript</li>
+      <li>Responsive Web Design</li>
+      <li>Project-Based Learning</li>
+      <li>Website Hosting and GitHub Deployment</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label>Name:</label><br>
+      <input type="text" name="name" required><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <label>Message:</label><br>
+      <textarea name="message" required></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Web Development Course. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
